@@ -1,3 +1,27 @@
+Basics:
+
+Change directory: cd C:\Users\i324415>cd OneDrive - SAP SE\Github
+
+Clone repository: git clone https://github.com/DanBinns/Get-Programming-with-JavaScript.git
+
+Change to cloned directory: cd cd Get-Programming-with-Javascript
+
+Add files: git add "Git Commands.txt"
+
+Check status: git status
+
+Set username: git config user.name "DBinns"
+
+Set email: git config user.email "dbinns@live.co.uk"
+
+Set global user name: git config global user.name "DBinns"
+
+Set global email: git config global user.email "dbinns@live.co.uk"
+
+Commit: git commit -m "Insert description of changes"
+
+------------------------------
+
 git init creates a new Git repository
 git status inspects the contents of the working directory and staging area
 git add adds files from the working directory to the staging area
