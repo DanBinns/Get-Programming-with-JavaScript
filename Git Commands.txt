@@ -20,6 +20,8 @@ Set global email: git config global user.email "dbinns@live.co.uk"
 
 Commit: git commit -m "Insert description of changes"
 
+Push: git push
+
 ------------------------------
 
 git init creates a new Git repository
