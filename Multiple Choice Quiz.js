@@ -4,6 +4,7 @@ var question;
 var question1;
 var question2;
 var question3;
+var showQuestionsAndAnswers;
 
 question1 = {
 		question:         "What is the capital of England?",
@@ -36,13 +37,19 @@ question1 = {
 };
 
 showQuestionsAndAnswers = function () {
-	console.log(question);
-	console.log(answer1);
-	console.log(answer2);
-	console.log(answer3);
-	console.log(answer4);
-	console.log("You will receive");
+	console.log(question.question);
+	console.log(question.answer1);
+	console.log(question.answer2);
+	console.log(question.answer3);
+	console.log(question.answer4);
+	console.log("You will receive " + question.marksForQuestion + " marks for succesfully answering this question");
 };
 
 question = question1;
+showQuestionsAndAnswers();
+
+question = question2;
+showQuestionsAndAnswers();
+
+question = question3;
 showQuestionsAndAnswers();
