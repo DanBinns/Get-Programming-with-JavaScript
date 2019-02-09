@@ -22,6 +22,15 @@ var recipe2 = {
   accompaniments: "Parmasan, Garlic bread",
 }
 
+var recipe3 = {
+  name: "Chilli con carne",
+  ingredients: "Minced beef, tomatoes, fresh red chillis",
+  seasoning: "Salt, pepper, cayenne pepper, smoked paprika",
+  acommaniments: "Rice, cheese, guacamole, sour cream, salsa",
+}
+
 recipe = recipe1; showRecipe();
 
 recipe = recipe2; showRecipe();
+
+recipe = recipe3; showRecipe();
