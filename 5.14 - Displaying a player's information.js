@@ -1,7 +1,13 @@
+//showLine(length + 0-40); to display dashes
+//showLine(); to display 40 dashes
+
 var showLine = function (length) {
 var line = "----------------------------------------";
     console.log(line.substring(0, length));
 };
+
+//showAsterisk(length + 0-40); to display dashes
+//showAsterisk(); to display 40 asterisks
 
 var showAsterisk = function (length) {
 var line = "***************************************************";
@@ -9,9 +15,9 @@ var line = "***************************************************";
 };
 
 var showPlayerName = function (playerName) {
-    showAsterisk(playerName.length + 5);
+    showAsterisk(playerName.length + 4);
     console.log("* " + playerName + " *");
-    showAsterisk(playerName.length + 5);
+    showAsterisk(playerName.length + 4);
 };
 
 var showPlayerHealth = function (playerName, playerHealth) {
@@ -23,24 +29,23 @@ var showPlayerPlace = function (playerName, playerPlace) {
 };
 
 var showPlayerInfo = function (playerName, playerPlace, playerHealth) {
-    console.log("");
-
+    showLine(length + 0);
     showPlayerName(playerName);
-
-    console.log("----------------------------");
-
+    showLine(playerName.length + 30);
     showPlayerPlace(playerName, playerPlace);
     showPlayerHealth(playerName, playerHealth);
-
-    console.log("----------------------------");
-    console.log("");
+    showLine(playerName.length + 30);
 };
+
+//Assigns values for Player1
 
 var player1 = {
     name: "Kandra",
     place: "The Dungeon of Doom",
     health: 50
 };
+
+//Assigns values for player2
 
 var player2 = {
     name: "Dax",
