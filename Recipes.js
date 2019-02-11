@@ -1,3 +1,6 @@
+//showLine(length + 0-40); to display dashes
+//showLine(); to display 40 dashes
+
 var showLine = function (length) {
 var line = "----------------------------------------";
     console.log(line.substring(0, length));

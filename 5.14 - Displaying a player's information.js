@@ -53,5 +53,10 @@ var player2 = {
     health: 40
 };
 
+//Invoke function commands
+
+showPlayerName(player1.name);
+showPlayerHealth(player1.name, player1.health);
+showPlayerPlace(player1.name, player1.health);
 showPlayerInfo(player1.name, player1.place, player1.health);
 showPlayerInfo(player2.name, player2.place, player2.health);
