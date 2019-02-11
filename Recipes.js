@@ -1,9 +1,15 @@
+var showLine = function (length) {
+var line = "----------------------------------------";
+    console.log(line.substring(0, length));
+};
+
 showRecipe = function () {
+  showLine();
   console.log ("Recipe Name: " + recipe.name);
   console.log("Ingredients: " + recipe.ingredients);
   console.log("Seasoning: " + recipe.seasoning);
   console.log("Accompaniments: " + recipe.accompaniments);
-  console.log("*********************");
+  showLine();
 };
 
 var recipe;
@@ -24,7 +30,7 @@ var recipe2 = {
 
 var recipe3 = {
   name: "Chilli con carne",
-  ingredients: "Minced beef, tomatoes, fresh red chillis",
+  ingredients: "Minced beef, tomatoes, fresh red chillis, kidney beans",
   seasoning: "Salt, pepper, cayenne pepper, smoked paprika",
   acommaniments: "Rice, cheese, guacamole, sour cream, salsa",
 }
